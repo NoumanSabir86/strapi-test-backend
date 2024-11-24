@@ -1,0 +1,26 @@
+{
+    "collectionName": "features",
+    "info": {
+        "singularName": "feature",
+        "pluralName": "features",
+        "displayName": "Feature"
+    },
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "content": {
+            "type": "json",
+            "customField": {
+                "type": "json",
+                "options": {
+                    "examples": {
+                        "heading": "string",
+                        "description": "string"
+                    }
+                }
+            }
+        }
+    }
+}
